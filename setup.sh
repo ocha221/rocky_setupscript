@@ -16,3 +16,4 @@ sudo dnf install nvidia-open -y
 sudo grubby --args="nouveau.modeset=0 rd.driver.blacklist=nouveau" --update-kernel=ALL
 
 
+sudo mokutil --import /var/lib/dkms/mok.pub
