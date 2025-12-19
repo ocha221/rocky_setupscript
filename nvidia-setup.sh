@@ -17,3 +17,5 @@ sudo grubby --args="nouveau.modeset=0 rd.driver.blacklist=nouveau" --update-kern
 
 
 sudo mokutil --import /var/lib/dkms/mok.pub
+
+
